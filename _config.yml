@@ -21,10 +21,10 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
-baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+url: "https://maxlee-blog.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl : "" # the subpath of your site, e.g. "/blog"
+title: 'MaxLee Blog'
+description: 'This is MaxLee`s blog'
 permalink: pretty
 logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
 
