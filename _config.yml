@@ -21,10 +21,10 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://pj4316.github.io'
 baseurl: ''
-title: 'My website'
-description: 'This is my new website'
+title: 'Maxlee blog'
+description: 'This is Maxlee blog'
 permalink: pretty
 logo: "https://github.com/pj4316/pj4316.github.io/blob/main/_assets/maxlee.jpeg?raw=true"
 
