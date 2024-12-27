@@ -1,6 +1,6 @@
 ---
 title: Welcome to my website
-feature_image: "https://github.com/pj4316/pj4316.github.io/blob/main/_assets/maxlee.jpeg?raw=true"
+feature_image: "https://picsum.photos/2560/600?image=872"
 feature_text: |
   ## Hello world
 ---
