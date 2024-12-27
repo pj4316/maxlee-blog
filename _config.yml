@@ -21,7 +21,7 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: "https://maxlee-blog.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://pj4316.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl : "" # the subpath of your site, e.g. "/blog"
 title: 'MaxLee Blog'
 description: 'This is MaxLee`s blog'
