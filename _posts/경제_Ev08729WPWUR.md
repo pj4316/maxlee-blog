@@ -1,11 +1,7 @@
 ---
 title: 2025년 트럼프 임기 시작에 주목해야할 변화
-
-created: 2024-12-28-03-00-04
-
 categories: 
 - 경제
-
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
