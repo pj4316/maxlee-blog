@@ -4,7 +4,7 @@ title: 2025년 주목해야 할 IT 트렌드
 created: 2024-12-28-02-45-37
 
 categories: 
-- IT
+- General
 
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
