@@ -25,12 +25,18 @@ url: 'https://pj4316.github.io'
 baseurl: ''
 title: 'Maxlee blog'
 description: 'This is Maxlee blog'
+
 permalink: pretty
 logo: "https://github.com/pj4316/pj4316.github.io/blob/main/_assets/maxlee.jpeg?raw=true"
-
-# Pagination
-paginate: 5
+paginate: 10
+toc: true
 paginate_path: blog/page:num
+
+social:
+  name: MaxLee
+  email: pj4316@naver.com
+  links:
+  - https://www.linkedin.com/in/maxlee90
 
 # Header nav
 navigation_header:
