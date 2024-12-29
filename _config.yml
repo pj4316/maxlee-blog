@@ -1,5 +1,5 @@
 # Set theme
-remote_theme: tzuehlke/jekyll-uno-timeline@master
+remote_theme: joshgerdes/jekyll-uno@master
 
 # File excludes
 exclude:
