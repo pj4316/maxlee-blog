@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% include site-header.html %}
+
+<main class="main  container">
+
+  <article class="article  article--post  content  typeset">
+
+    <h1>{{ page.title }}</h1>
+    {% include post-meta.html %}
+    {{ content }}
+
+    {% include nav-share.html %}
+
+    {% include post-comments.html %}
+
+  </article>
+
+  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+
+  <script src="https://giscus.app/client.js"
+        data-repo="pj4316/pj4316.github.io"
+        data-repo-id="R_kgDONiz2Dg"
+        data-category="Q&A"
+        data-category-id="DIC_kwDONiz2Ds4CllmD"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="ko"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+  </script>
+</main>
+
+{% include site-footer.html %}
