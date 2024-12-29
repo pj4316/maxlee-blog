@@ -1,66 +1,19 @@
 # Set theme
 remote_theme: joshgerdes/jekyll-uno@master
 
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
-- jekyll-remote-theme
-
 # Site settings
+logo: "https://github.com/pj4316/pj4316.github.io/blob/main/_assets/maxlee.jpeg?raw=true"
+
+title: Maxlee blog
+description: 'This is Maxlee blog'
 url: 'https://pj4316.github.io'
 baseurl: ''
-title: 'Maxlee blog'
-description: 'This is Maxlee blog'
 
-permalink: pretty
-logo: "https://github.com/pj4316/pj4316.github.io/blob/main/_assets/maxlee.jpeg?raw=true"
-paginate: 10
-toc: true
-paginate_path: blog/page:num
-
-social:
-  name: MaxLee
+author:
+  name: 'Max Lee'
   email: pj4316@naver.com
-  links:
-  - https://www.linkedin.com/in/maxlee90
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /blog/
-- title: About
-  url: /about/
-- title: Blog
-  url: /blog/
-
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
-
-# Collections
-collections:
-  posts:
-    title: Posts
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+  github_username:  pj4316
+  linkedin_username:  https://www.linkedin.com/in/maxlee90
 
 # Collection settings
 defaults:
@@ -76,7 +29,22 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+sass:
+    sass_dir: _sass
+    style: compressed
+kramdown:
+  input: GFM
+  hard_wrap: false
 
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+
+# giscus setting
 comments: 
   active: giscus
   giscus:
