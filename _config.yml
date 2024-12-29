@@ -70,3 +70,11 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+
+comments: 
+  active: giscus
+  giscus:
+    repo: pj4316/pj4316.github.io
+    repo_id: R_kgDONiz2Dg
+    category: Q&A
+    category_id: DIC_kwDONiz2Ds4CllmD
