@@ -1,5 +1,5 @@
 # Set theme
-remote_theme: joshgerdes/jekyll-uno@master
+remote_theme: chesterhow/tale@master
 
 # Site settings
 logo: "https://github.com/pj4316/pj4316.github.io/blob/main/_assets/maxlee.jpeg?raw=true"
@@ -16,33 +16,22 @@ author:
   linkedin_username:  https://www.linkedin.com/in/maxlee90
 
 # Collection settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post # Set the default layout for posts
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: page # Set the default layout for pages
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
-sass:
-    sass_dir: _sass
-    style: compressed
-kramdown:
-  input: GFM
-  hard_wrap: false
+include:
+  - _pages
 
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # giscus setting
 comments: 
